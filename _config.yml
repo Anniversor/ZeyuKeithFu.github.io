@@ -23,8 +23,8 @@ email: zeyufu@bu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Keith space.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zeyukeithfu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Zeyu Keith Fu
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  ZeyuKeithFu
 
 # Build settings
 theme: jekyll-theme-cayman
