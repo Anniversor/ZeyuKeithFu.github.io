@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#container {
+    color: #f7f7f7;
+    margin-top: 0;
+    padding-top: 150px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Fredoka One';
+    font-size: 72px;
+    background: -webkit-linear-gradient(right, #3494e6, #ec6ead);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ops {
+    white-space: pre;
+    font-family: 'Special Elite';
+    animation: blinkingText 1.2s infinite;
+}
+
+.hint {
+    font-family: 'Fredoka One';
+    background: -webkit-linear-gradient(left, #3494e6, #ec6ead);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-level-down-alt {
+    transform: rotate(90deg);
+}
+
+.fa-music {
+    animation: spin 1.2s infinite;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+@keyframes blinkingText{
+    0%{     color: #f7f7f7;    }
+    49%{    color: rgba(247, 247, 247, 0.4); }
+    50%{    color: rgba(247, 247, 247, 0.4); }
+    59%{    color: rgba(247, 247, 247, 0.4);  }
+    100%{   color: #f7f7f7;    }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

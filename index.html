@@ -1,40 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Keith Got The Keys</title>
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="home.css">
+    <meta charset="UTF-8">
+    <title>KeyTap</title>
+    <link rel="stylesheet" href="assets/css/tap.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script type="text/javascript" src="assets/js/lib/paper-full.js"></script>
+    <script type="text/javascript" src="assets/js/lib/howler.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">Zeyu Fu</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="https://zeyukeithfu.github.io/myblog/">Blog</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
-	<div class="container">
-		<div class="jumbotron">
-		  <h1 class="display-4">Hello, world!</h1>
-		  <p class="lead">This is Zeyu Keith Fu.</p>
-		  <hr class="my-4">
-		  <p>From 027 to 857.</p>
-		  <a class="btn btn-primary btn-lg" href="https://zeyukeithfu.github.io/myblog/" role="button">More about me</a>
-		</div>
-	</div>
+    <div id="container">
+        <h1>Welcome to Zeyu Fu Place!</h1>
+        <h2 class="hint">FIRST THING FIRST, I LOVE MUSIC.</h2>
+        <h2 class="ops">Try Some Music  <i class="fas fa-music"></i>  by Pressing any Letter <i class="fas fa-keyboard"></i> (A~Z)</h2>
+        <h2 class="hint">Or You Can...</h2>
+        <h2 class="ops">Press ENTER  <i class="fas fa-level-down-alt"></i>  to Visit My Blog <i class="fas fa-user"></i></h2>
+        <h2 class="ops">Press ESC <i class="fas fa-window-close"></i> to Main Menu <i class="fas fa-list-alt"></i></h2>
+    </div>
+    <canvas id="myCanvas" resize></canvas>
+    <script type="text/paperscript" src="assets/js/tap.js" canvas="myCanvas"></script>
 </body>
 </html>
