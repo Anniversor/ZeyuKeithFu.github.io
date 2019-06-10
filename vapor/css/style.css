@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 20px;
+}
+
 body {
     font-family: 'Kanit';
     overflow-x: hidden;
@@ -9,6 +14,14 @@ h1 {
     color: black;
 }
 
+.navbar {
+    padding-left: 48px;
+}
+
+.sticky-top {
+    padding-top: 56px;
+}
+
 .song-list {
     overflow-y: scroll;
 }
@@ -17,17 +30,31 @@ h1 {
     overflow-y: scroll;
 }
 
-.news {
-    text-overflow: ellipsis;
+.sub {
+    margin-top: 50px;
+}
+
+.news-content {
+    white-space: nowrap;
     overflow-x: scroll;
 }
 
-.hot {
+.news-content .rounded {
+    margin-right: 20px;
+}
+
+.hot-content {
+    height: 700px;
     overflow-y: scroll;
+}
+
+.hot-content .rounded {
+    margin-bottom: 20px;
 }
 
 .jumbotron {
     text-align: center;
+    margin-top: 50px;
     /*background: #3494E6;*/
     /*background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);*/
     /*background: linear-gradient(to right, #EC6EAD, #3494E6);*/

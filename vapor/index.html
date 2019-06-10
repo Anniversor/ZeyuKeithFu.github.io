@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Kanit:400,700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.min.js"></script>
@@ -14,7 +17,7 @@
 </head>
 <body>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">V A P O R</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,11 +48,11 @@
     <div class="row">
         <!--Content-->
         <div class="col-12 col-md-10">
-            <div class="container">
+            <div class="container popular">
                 <h1>POPULAR</h1>
                 <div class="row justify-content-around">
-                    <div class="col-12 col-md-6">
-                        <div class="card" id="picture">
+                    <div class="col-12 col-md-6 content" id="picture">
+                        <div class="card">
                             <img src="http://sunbleach.net/wp-content/uploads/2017/08/tumblr_o3apnwjs2W1s44kvbo1_1280.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Picture</h5>
@@ -58,8 +61,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card" id="music">
+                    <div class="col-12 col-md-6 content" id="music">
+                        <div class="card">
                             <img src="http://sunbleach.net/wp-content/uploads/2016/08/xoxox-surfin-the-waves.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Album</h5>
@@ -71,11 +74,10 @@
                 </div>
             </div>
             <br>
-            <div class="container">
+            <div class="container content" id="article">
                 <div class="card">
-                    <div class="card-body" id="article">
+                    <div class="card-body">
                         <h5 class="card-title">Article</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                         <p class="card-text" style="height: 18rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium architecto, asperiores aspernatur, aut blanditiis cupiditate deleniti deserunt dolore enim eos excepturi exercitationem facilis fugiat id iure libero magni neque nisi nobis odit officiis placeat porro possimus quae quam quasi, quia quisquam reprehenderit sed temporibus totam velit vitae! Commodi dolor doloremque eius ex fugit harum illo laboriosam perferendis quis quisquam quo rem reprehenderit sit tempora, voluptates. Amet at cumque dolor et exercitationem inventore ipsa libero nihil perferendis quod sunt, veniam voluptates voluptatum? Accusamus aliquid aperiam dicta ea eligendi enim esse eveniet hic illum iste, iusto laboriosam minus modi nam nostrum qui quod ratione repellendus saepe soluta sunt ut veritatis? Consequatur culpa debitis eveniet ipsam optio. Accusamus animi perferendis rem repudiandae sint! Aperiam architecto officiis perspiciatis quam quisquam? Animi aut commodi consectetur cum cumque delectus dolorem dolorum earum eos esse eum fuga incidunt laudantium magni maiores maxime modi molestias mollitia nam natus omnis praesentium quae quaerat quia quisquam rerum saepe sapiente sit tempora tenetur totam, ullam vitae voluptate. Ab, consequuntur ea enim error nesciunt officia voluptas? Ad aperiam blanditiis consequatur dignissimos eius eum facere harum itaque natus sed? Assumenda dolor expedita facilis illo non quia ratione sint voluptates? Deleniti, doloribus dolorum earum enim error hic in iusto natus obcaecati odit perferendis quasi qui sit suscipit tenetur voluptatem, voluptates. Amet consequatur inventore ipsum itaque odio? Amet enim hic in neque optio possimus praesentium sed sunt ut vitae! A aliquid eaque eveniet fuga iusto, nostrum pariatur perferendis qui, repellat totam ut vero. Alias distinctio, eligendi illo libero natus nihil obcaecati praesentium qui totam voluptate. Animi, architecto, cum, delectus dolores fugiat illum laborum magnam nesciunt officia officiis perferendis porro praesentium provident similique sunt suscipit veritatis. Aliquam at consectetur culpa eaque esse est, et fugit id laudantium minus non optio, placeat rerum saepe sint? Accusamus amet atque beatae itaque neque nostrum quia recusandae. Aliquam aperiam autem beatae consequuntur cum deleniti distinctio dolores dolorum earum enim error expedita, fuga impedit in iure maiores maxime molestias nisi non nulla odio pariatur quibusdam quo quos rem repellendus repudiandae saepe sequi similique sunt temporibus totam voluptate voluptatem. Ad deleniti doloribus eius ex exercitationem illum ipsa ipsum laudantium, minima molestias nesciunt obcaecati odit, provident quae quam! Accusantium atque autem consequatur consequuntur eum facere, ipsum modi nemo, nobis praesentium quas, quisquam reprehenderit rerum vero voluptate? Consectetur debitis laboriosam praesentium voluptatem. Ad adipisci aut autem beatae consequatur cum deleniti doloremque, ducimus excepturi fuga fugiat fugit illo inventore laboriosam laborum libero nulla officiis praesentium quaerat quam quos recusandae reiciendis rem repellendus sapiente sit sunt, tempora veritatis vero voluptatem. A ad aliquid consectetur eaque enim esse excepturi iure nobis non nulla omnis placeat porro quis, quo rem rerum tempora. Dolores ducimus nostrum reiciendis! Distinctio dolor error esse, exercitationem omnis quas saepe sit vero voluptatibus. Consectetur corporis dolore enim et facere fuga inventore ipsa maxime minima minus molestiae nostrum numquam, officia perferendis placeat quaerat, quas quis quisquam ratione reiciendis rem sed voluptatum! A earum et itaque iure laudantium minus pariatur perferendis possimus soluta voluptate. Recusandae!</p>
                         <a href="#" class="card-link">Card link</a>
                         <a href="#" class="card-link">Another link</a>
@@ -83,11 +85,11 @@
                 </div>
             </div>
             <br>
-            <div class="container">
+            <div class="container content" id="event">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="http://sunbleach.net/wp-content/uploads/2018/04/AcceptableTrouble-ocean-768x1210.png" class="card-img" alt="...">
+                            <img src="https://i.pinimg.com/474x/e8/fd/9d/e8fd9daf563716feb33b1e3f9db27193.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -98,11 +100,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="news">
-                    <h1>Newest</h1>
-                    <img src="http://sunbleach.net/wp-content/uploads/2016/08/xoxox-surfin-the-waves.jpg" class="img-rounded" alt="..." width="30%">
-                    <img src="http://sunbleach.net/wp-content/uploads/2016/08/xoxox-surfin-the-waves.jpg" class="img-rounded" alt="..." width="30%">
-                    <img src="http://sunbleach.net/wp-content/uploads/2016/08/xoxox-surfin-the-waves.jpg" class="img-rounded" alt="..." width="30%">
+            </div>
+            <div class="container sub">
+                <h1>Newest</h1>
+                <div class="news-content">
+                    <img src="https://i.pinimg.com/474x/06/33/bc/0633bc914d7ba9f6446840f5351f040b.jpg" class="rounded" alt="..." width="30%">
+                    <img src="https://i.pinimg.com/474x/06/33/bc/0633bc914d7ba9f6446840f5351f040b.jpg" class="rounded" alt="..." width="30%">
+                    <img src="https://i.pinimg.com/474x/06/33/bc/0633bc914d7ba9f6446840f5351f040b.jpg" class="rounded" alt="..." width="30%">
+                    <img src="https://i.pinimg.com/474x/06/33/bc/0633bc914d7ba9f6446840f5351f040b.jpg" class="rounded" alt="..." width="30%">
+                    <img src="https://i.pinimg.com/474x/06/33/bc/0633bc914d7ba9f6446840f5351f040b.jpg" class="rounded" alt="..." width="30%">
+                </div>
+            </div>
+            <div class="container sub">
+                <h1>Hottest</h1>
+                <div class="hot-content">
+                    <img src="https://cdn.androidheadlines.com/wp-content/uploads/2016/06/VRVCA.png" class="rounded" alt="" width="100%">
+                    <img src="https://cdn.androidheadlines.com/wp-content/uploads/2016/06/VRVCA.png" class="rounded" alt="" width="100%">
+                    <img src="https://cdn.androidheadlines.com/wp-content/uploads/2016/06/VRVCA.png" class="rounded" alt="" width="100%">
+                    <img src="https://cdn.androidheadlines.com/wp-content/uploads/2016/06/VRVCA.png" class="rounded" alt="" width="100%">
+                    <img src="https://cdn.androidheadlines.com/wp-content/uploads/2016/06/VRVCA.png" class="rounded" alt="" width="100%">
                 </div>
             </div>
         </div>

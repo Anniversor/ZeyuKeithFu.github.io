@@ -1,15 +1,24 @@
 // playlist object
 var playList = {
     0: new Howl({
-            src: ['sounds/demo.mp3']
-        }),
+        src: ['sounds/demo.mp3']
+    }),
     1: new Howl({
-            src: ['sounds/demo.mp3']
-        }),
+        src: ['sounds/demo.mp3']
+    }),
     2: new Howl({
-            src: ['sounds/demo.mp3']
-        }),
-    length: 3,
+        src: ['sounds/demo.mp3']
+    }),
+    3: new Howl({
+        src: ['sounds/demo.mp3']
+    }),
+    4: new Howl({
+        src: ['sounds/demo.mp3']
+    }),
+    5: new Howl({
+        src: ['sounds/demo.mp3']
+    }),
+    length: 6
 };
 
 // Play function
