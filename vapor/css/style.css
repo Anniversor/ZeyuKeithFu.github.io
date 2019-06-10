@@ -1,0 +1,58 @@
+body {
+    font-family: 'Kanit';
+    overflow-x: hidden;
+    /*background-image: url("../images/back.png");*/
+    /*background-size: cover;*/
+}
+
+h1 {
+    color: black;
+}
+
+.song-list {
+    overflow-y: scroll;
+}
+
+.card-text {
+    overflow-y: scroll;
+}
+
+.news {
+    text-overflow: ellipsis;
+    overflow-x: scroll;
+}
+
+.hot {
+    overflow-y: scroll;
+}
+
+.jumbotron {
+    text-align: center;
+    /*background: #3494E6;*/
+    /*background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);*/
+    /*background: linear-gradient(to right, #EC6EAD, #3494E6);*/
+}
+
+.fa-compact-disc {
+    display: none;
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+.fa-stop-circle {
+    display: none;
+    float: right;
+    padding-top: 4px;
+}
+
+.playing {
+    display: inline-block;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
